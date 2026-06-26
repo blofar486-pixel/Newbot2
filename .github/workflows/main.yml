@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://LofarBoy:$HF_TOKEN@huggingface.co/spaces/LofarBoy/rqt-quant-bot main
+        run: git push https://LofarBoy:$HF_TOKEN@huggingface.co/spaces/Rizvi082/Render_bot main
